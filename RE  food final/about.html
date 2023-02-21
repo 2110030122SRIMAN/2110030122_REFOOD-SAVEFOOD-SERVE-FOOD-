@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>RE-FOOD</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,
+wght@0,100;0,300;0,600;0,700;1,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hide-menu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="SignIn.html">LOGIN</a></li>
+                <li><a href="Signup.html">REGISTER</a></li>
+ 
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="show-menu()"></i>
+    </nav>
+    <h1>About Us</h1>
+</section>
+<!---------------------about us Content--------------->
+<section class="about-us">
+    <div class="row">
+<div class="about-col">
+    <h1>Tell me what you eat, and I will tell you who you are</h1>
+<p>Finally, reducing wastage management system, we have a system where the first one
+will put a request to take the waste food, or we can say extra food they left within the function they were enjoying.
+He fills up the details of the food. The manager will be assigned to pick the order. He takes the vehicle to the place
+of function and loads the vehicle and takes it to the area where the need for the food is much on the base of severity.</p>
+<a href="" class="btn1 red-btn1">EXPLORE NOW</a>
+        </div>
+<div class="about-col">
+    <img src="aboutus.png">
+    </div>
+    
+</div>
+</section>
+<section class="footer">
+    <h2>About Us</h2>
+    <p>Through this application we are finally, able to provide food to the poor
+    and needy people at cheaper cost<br>Contact us on</p>
+    <div class="icons">
+        <i class="fa fa-facebook-official"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by KL STUDENTS</p>
+</section>
+<script>
+    var navLinks = document.getElementaryById("navLinks");
+    function show-menu(){
+    navLinks.style.right="0";
+    }
+    function hide-menu(){
+    navLinks.style.right="-200px";
+    }
+</script>
+</body>
+</html>
